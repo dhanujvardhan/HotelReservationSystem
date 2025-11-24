@@ -1,42 +1,30 @@
-Hotel Reservation System
-A simple, console-based hotel reservation system developed in Java.
-This project allows users to search available rooms, make reservations, view all bookings, and process payments. It demonstrates object-oriented programming practices and basic system design.
+# Hotel Reservation System
 
-Features
-Room Search: Users can search for available hotel rooms by category (Single, Double, Suite).
+A simple Java-based console application that allows users to search for available hotel rooms, make reservations, view booking details, categorize rooms, and simulate payment processing.
 
-Room Booking: Book available rooms by entering guest details, stay duration, and category.
+## Features
 
-Booking Details: View all reservations with guest information, room categories, check-in/out dates, and payment amounts.
+- **Room Search:** Find available rooms by category (Single, Double, Suite).
+- **Room Booking:** Reserve rooms by providing guest information and stay dates.
+- **Booking Details:** View all reservations made in the system.
+- **Room Categorization:** Organize rooms by type for easier management and search.
+- **Payment Processing:** Simulate payment upon reservation.
+- **Console Interface:** Easy-to-use, menu driven interaction.
 
-Room Categorization: Supports multiple room types with dynamic price handling.
+## Technologies Used
 
-Payment Processing: Simulates payment when booking a room.
+- Java (Standard Edition)
+- No third-party dependencies
 
-Console Interface: User interacts with intuitive menu-driven commands for all operations.
+## Getting Started
 
-Technologies Used
-Java (Standard Edition)
+### Prerequisites
 
-No external libraries required
+- Java Development Kit (JDK) 8 or higher
+- VS Code (recommended) or any Java IDE
 
-Runs from the command line (console/terminal)
+### Setup and Execution
 
-How to Run
-Clone or download the repository.
-
-Save all source files (Room.java, Reservation.java, HotelManagement.java, HotelReservationSystem.java) in one folder.
-
-Open terminal/command line, navigate to the folder, and compile:
-
-text
-javac *.java
-Run the application:
-
-text
-java HotelReservationSystem
-Follow on-screen prompts to use the system.
-
-Purpose
-This repository is intended as an educational resource for students and beginners to practice Java programming, object-oriented design, and simple system implementation.
-It can be extended with database support, GUI integration, or online features for developers seeking further learning opportunities.
+1. **Clone this repository** and open the project folder in VS Code.
+2. **Save each class** (`Room.java`, `Reservation.java`, `HotelManagement.java`, `HotelReservationSystem.java`) in the root of your project.
+3. **Compile all Java files:**
